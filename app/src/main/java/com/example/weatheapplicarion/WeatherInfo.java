@@ -80,9 +80,6 @@ import androidx.appcompat.app.AppCompatActivity;
                     temperaturemethod(cityName);
                     windspeedmethod(cityName);
                     distancemethod(cityName);
-
-
-
                 }
             });
         }
@@ -126,7 +123,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
             }
             cursor.close();
-
         }
         public void distancemethod(String cityName){
             Cursor cursor = mDb.query(cityName);
@@ -144,7 +140,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
             }
             cursor.close();
-
         }
 
     }

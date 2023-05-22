@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -37,8 +36,6 @@ Button btn, insertBT;
                     int cityNameIndex = cursor.getColumnIndex("CityName");
                     if (cityNameIndex != -1 && !cursor.isNull(cityNameIndex)) {
                         openActivity2(CityName);
-                    } else {
-                        Toast.makeText(getApplicationContext(),"Can Not Find The City Name",Toast.LENGTH_LONG).show();
                     }
                 }
                 cursor.close();

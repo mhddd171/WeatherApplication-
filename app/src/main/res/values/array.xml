@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="temp_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="speed_units">
+        <item>Kilometers per hour</item>
+        <item>Miles per hour</item>
+    </string-array>
+    <string-array name="distance_units">
+        <item>Kilometer</item>
+        <item>Mile</item>
+    </string-array>
+</resources>
